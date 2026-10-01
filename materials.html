@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Материалы под ваш оффер — Диджитал Ай</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="doc-header">
+  <div class="container doc-bar">
+    <a href="index.html" class="logo">
+      <svg class="logo__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><circle cx="10.5" cy="9.5" r="2.3" fill="#fff"/><rect x="8.5" y="14" width="4" height="10" rx="2" fill="#fff"/><path d="M17.5 22l3.5-4.5 2.5 2.5 3.5-6" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Диджитал Ай</span>
+    </a>
+    <div class="doc-bar__actions">
+      <a href="index.html" class="btn btn--ghost btn--sm">На сайт</a>
+    </div>
+  </div>
+</header>
+
+<main class="container doc-hero">
+  <span class="tag">Материалы под ваш оффер</span>
+  <h1>Всё, что закрывает разговор с клиентом после заявки</h1>
+  <p>Форма на сайте приводит заявку. А деньги теряются или зарабатываются на следующем шаге: в разговоре, в презентации, в первом сообщении. Ниже три материала, собранные под ваши услуги и ставку 15% от бюджета.</p>
+</main>
+
+<section class="container doc-section">
+  <div class="material-grid">
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 4H20V16H8L4 20V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипты продаж</h3>
+      <p>Как вести разговор с заявкой после аудита, как называть ставку 15% от бюджета и отвечать на «дорого», «у нас уже есть подрядчик», «я подумаю».</p>
+      <a href="scripts.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 20H16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+      <h3>Продающая презентация</h3>
+      <p>Оформленная страница с УТП, ставкой и примером расчёта: её можно скинуть потенциальному клиенту в переписку вместо долгого объяснения.</p>
+      <a href="presentation.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+    <div class="material-card">
+      <div class="material-card__icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M21 4L2.5 11.5L9 13.5M21 4L17.5 20L9 13.5M21 4L9 13.5" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+      <h3>Скрипт холодных сообщений</h3>
+      <p>Кому писать первыми, первое сообщение, ответ на «а вы кто», прогрев до созвона. Плюс арифметика выхода на 5–10 млн ₽ в месяц.</p>
+      <a href="outreach.html" class="btn btn--primary btn--block">Открыть</a>
+    </div>
+  </div>
+
+</section>
+
+<footer class="footer">
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Диджитал Ай. Материалы подготовлены под ваш оффер.</span>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
